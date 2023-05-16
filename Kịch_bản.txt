@@ -1,0 +1,31 @@
+4 tuyên ngôn của Agile:
+
+	- Individuals and interactions over processes and tools: Cá nhân và sự tương tác hơn là quy trình và công cụ
+
+	- Working software over comprehensive documentation: Phần mềm chạy tốt hơn là tài liệu đầy đủ
+
+	- Customer collaboration over contract negotiation: Cộng tác với khách hàng hơn là đàm phán hợp đồng
+
+	- Responding to change over following a plan: Phản hồi với sự thay đổi hơn là bám theo kế hoạch
+
+
+12 nguyên tắc của Agile:
+
+	- Ưu tiên cao nhất là hài lòng khách hàng
+
+	- Luôn chào đón khả năng thay đổi yêu cầu, thậm chí những thay đổi có thể xảy ra rất muộn trong quy trình phát triển.
+
+	- Thường xuyên chuyển giao phần mềm chạy tốt tới khách hàng, từ vài tuần đến vài tháng, ưu tiên cho các khoảng thời gian ngắn hơn.
+
+	- Nhà kinh doanh và nhà phát triển phải làm việc cùng nhau mỗi ngày trong suốt dự án.
+
+
+Những quy tắc trong Sprint:
+
+	- Không cho phép bất kì sự thay đổi nào ảnh hưởng đến Mục tiêu Sprint (Sprint Goal)
+
+	- Thành phần Team Dev được giữ nguyên, tức là giữ nguyên về mặt nhân sự và số lượng thành viên trong team, ta có thể hiểu là không để xảy ra những sự bất hòa dẫn đến các bất lợi về mặt nhân lực
+
+	- Mục tiêu chất lượng không được cắt giảm, tất nhiên là ai cũng muốn chất lượng sản phẩm phải ở mức cao nhất và đạt đủ yêu cầu đề ra của khách hàng
+
+	- Phạm vi có thể được làm rõ và tái thương lượng giữa Product Owner và Team Dev: Cụ thể, Product Owner có trách nhiệm giải thích yêu cầu và mong đợi của khách hàng đối với sản phẩm cho team dev, giúp các thành viên team dev có cái nhìn rõ ràng về mục tiêu và phạm vi của từng Sprint. Ngoài ra, trong suốt quá trình Sprint, có thể có sự thảo luận và tái thương lượng giữa Product Owner và team dev nếu có sự thay đổi hoặc bổ sung yêu cầu, hoặc nếu có sự hiểu lầm hoặc khó khăn trong quá trình triển khai công việc. Và quan trọng chốt lại là Product Owner và tập thể team dev phải duy trì sự giao tiếp liên tục và chia sẻ thông tin với nhau để đảm bảo hiểu biết chung về phạm vi và mục tiêu của Sprint và đảm bảo rằng sản phẩm đáp ứng được yêu cầu của khách hàng.
