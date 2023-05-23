@@ -1,0 +1,47 @@
+create (:Noun{name:'world'})
+create (:Noun{name:'country'})
+create (:Noun{name:'city'})
+create (:Noun{name:'capital'})
+create (:Noun{name:'bridge'})
+
+create (:Verb{name:'do'})
+create (:Verb{name:'is'})
+create (:Verb{name:'locate'})
+create (:Verb{name:'make'})
+create (:Verb{name:'build'})
+
+create (:Proper_noun{name:'London'})
+create (:Proper_noun{name:'Great Britain'})
+create (:Proper_noun{name:'Vietnam'})
+create (:Proper_noun{name:'Hanoi'})
+create (:Proper_noun{name:'Ho Chi Minh'})
+
+create (:Article{name:'a'})
+create (:Article{name:'an'})
+create (:Article{name:'the'})
+create (:Article{name:'null'})
+
+create (:Preposition{name:'in'})
+create (:Preposition{name:'on'})
+create (:Preposition{name:'at'})
+create (:Preposition{name:'of'})
+create (:Preposition{name:'above'})
+
+create (:Adverb{name:'always'})
+create (:Adverb{name:'never'})
+create (:Adverb{name:'hardly'})
+create (:Adverb{name:'populously'})
+create (:Adverb{name:'sometimes'})
+
+create (:Sign{name:'single_quotation_mark'})
+create (:Sign{name:'double_quotation_marks'})
+create (:Sign{name:'dot'})
+create (:Sign{name:'comma'})
+create (:Sign{name:'semicolon'})
+
+match (noun :Noun {name:'capital'})
+match (verb :Proper_noun {name:'Hanoi'})
+merge (verb)-[:DEFINED]->(noun)
+
+// result:
+// *is ----LOCATED_AT----> city
