@@ -45,3 +45,13 @@ merge (verb)-[:DEFINED]->(noun)
 
 // result:
 // *is ----LOCATED_AT----> city
+
+
+
+match (proper_noun_start :Proper_noun {name:'Vietnam'})
+match (sign :Sign {name:'comma'})
+match (proper_noun_end :Proper_noun {name:'Great Britain'})
+merge (proper_noun_start)-[:DEFINITELY_GO_WITH]-(sign)-[:DEFINITELY_GO_WITH]->(proper_noun_end)
+
+// result:
+// *Vietnam ----DEFINITELY_GO_WITH---- `comma` ----- DEFINITELY_GO_WITH ---> Great Britain
