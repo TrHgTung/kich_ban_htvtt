@@ -55,3 +55,9 @@ merge (proper_noun_start)-[:DEFINITELY_GO_WITH]-(sign)-[:DEFINITELY_GO_WITH]->(p
 
 // result:
 // *Vietnam ----DEFINITELY_GO_WITH---- `comma` ----- DEFINITELY_GO_WITH ---> Great Britain
+
+
+// RUN (ACTIVE)
+
+match(n)
+return n;
